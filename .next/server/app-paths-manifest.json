@@ -1,10 +1,3 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/gallery/page": "app/gallery/page.js",
-  "/icon.png/route": "app/icon.png/route.js",
-  "/page": "app/page.js",
-  "/process/page": "app/process/page.js",
-  "/studio/page": "app/studio/page.js",
-  "/works/[slug]/page": "app/works/[slug]/page.js",
-  "/works/page": "app/works/page.js"
+  "/page": "app/page.js"
 }

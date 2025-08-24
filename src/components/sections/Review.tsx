@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef, useState } from "react";
+import {  useState } from "react";
 import TextAnimation from "../layout/TextAnimation";
 
 const testimonials = [
