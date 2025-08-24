@@ -42,7 +42,7 @@ export default function Hero() {
   return (
     <section 
       ref={heroRef}
-      className="fixed inset-0 h-screen overflow-hidden z-10"
+      className="fixed inset-0  overflow-hidden z-10"
     >
       {/* Background Images */}
       <div className="absolute inset-0">
