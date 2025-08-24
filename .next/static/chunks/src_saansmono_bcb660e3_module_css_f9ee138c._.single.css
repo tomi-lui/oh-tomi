@@ -1,0 +1,23 @@
+/* [project]/src/saansmono_bcb660e3.module.css [app-client] (css) */
+@font-face {
+  font-family: saansMono;
+  src: url("../media/SaansMono_Regular-s.p.04538993.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: saansMono Fallback;
+  src: local(Arial);
+  ascent-override: 69.21%;
+  descent-override: 17.11%;
+  line-gap-override: 0.0%;
+  size-adjust: 131.49%;
+}
+
+.saansmono_bcb660e3-module__Y9uIPW__className {
+  font-family: saansMono, saansMono Fallback;
+}
+
+/*# sourceMappingURL=src_saansmono_bcb660e3_module_css_f9ee138c._.single.css.map*/

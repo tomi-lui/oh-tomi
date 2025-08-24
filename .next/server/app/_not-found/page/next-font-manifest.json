@@ -1,0 +1,15 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/_not-found/page": [
+      "static/media/Saans_Bold-s.p.2a6f55aa.woff2",
+      "static/media/Saans_SemiBold-s.p.fd5c9c80.woff2",
+      "static/media/Saans_Medium-s.p.872e8818.woff2",
+      "static/media/Saans_Regular-s.p.f13ae316.woff2",
+      "static/media/lcddot-s.p.217636d1.ttf",
+      "static/media/SaansMono_Regular-s.p.04538993.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}
