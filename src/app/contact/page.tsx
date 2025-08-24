@@ -9,7 +9,7 @@ interface ContactFormProps {
   onClose: () => void;
 }
 
-export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
+export default function Contact({ isOpen, onClose }: ContactFormProps) {
   return (
     <AnimatePresence>
       {isOpen && (
