@@ -3,13 +3,12 @@
 import { motion, AnimatePresence } from "motion/react";
 import Image from "next/image";
 
-
 interface ContactFormProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
-export default function Contact({ isOpen, onClose }: ContactFormProps) {
+export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
   return (
     <AnimatePresence>
       {isOpen && (

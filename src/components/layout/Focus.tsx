@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 
 import { useState } from "react";
-import Contact from "../../app/contact/page"; // Adjust the path as needed
+import ContactForm from "./ContactForm"; // Adjust the path as needed
 
 export default function Focus() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -61,7 +61,7 @@ export default function Focus() {
       </section>
 
       {/* Contact Form */}
-      <Contact isOpen={isFormOpen} onClose={toggleForm} />
+      <ContactForm isOpen={isFormOpen} onClose={toggleForm} />
     </>
   );
 }

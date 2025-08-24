@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import Contact from "../../app/contact/page";
+import ContactForm from "../../components/layout/ContactForm";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -184,7 +184,7 @@ export default function Header() {
       </AnimatePresence>
 
       {/* Use external ContactForm component */}
-      <Contact isOpen={isFormOpen} onClose={toggleForm} />
+      <ContactForm isOpen={isFormOpen} onClose={toggleForm} />
 
       {/* Mobile Menu with Clip-Path Animation - Changed to off-white background */}
       <div

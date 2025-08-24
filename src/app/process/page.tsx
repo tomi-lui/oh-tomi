@@ -8,7 +8,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Review from "@/components/sections/Review";
 import TextAnimation from "../../components/layout/TextAnimation";
-import Contact from "../contact/page";
+import ContactForm from "../../components/layout/ContactForm";
 
 // Register GSAP plugins
 if (typeof window !== "undefined") {
@@ -251,7 +251,7 @@ export default function Process() {
           </div>
         </div>
       </section>
-      <Contact isOpen={isFormOpen} onClose={toggleForm} />
+      <ContactForm isOpen={isFormOpen} onClose={toggleForm} />
 
       {/* Overview Section with Dark Background */}
       <section className="relative min-h-screen bg-black text-white overflow-hidden">
