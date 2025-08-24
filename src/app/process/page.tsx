@@ -178,7 +178,7 @@ export default function Process() {
               <div className="w-full md:w-3/4">
                 <TextAnimation>
                   <h1 className="text-4xl md:text-7xl font-bold text-black leading-sung mb-8 md:mb-12">
-                    Great architecture isn't just about talent and
+                    Great architecture is not just about talent and
                     experience, but collaborations and relationships.
                   </h1>
                 </TextAnimation>

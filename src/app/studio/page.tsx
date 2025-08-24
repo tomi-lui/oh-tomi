@@ -154,9 +154,9 @@ export default function Studio() {
             <TextAnimation>
               <h2 className="text-2xl md:text-6xl font-bold text-black leading-tight ">
                 At OH, we take a collaborative
-                approach. Whether we're working
+                approach. Whether we are working
                 in the studio or alongside our
-                clients and partners, it's this
+                clients and partners, it is this
                 shared process that helps us
                 create work that reflects both your
                 vision and ours.
@@ -355,7 +355,7 @@ export default function Studio() {
                 <div className="space-y-4 text-black text-base md:text-lg font-bold leading-relaxed max-w-md">
                   <TextAnimation>
                     <p>
-                      Awards and media recognition aren't the goal, but they remind us that thoughtful design leaves a lasting impact.
+                      Awards and media recognition are not the goal, but they remind us that thoughtful design leaves a lasting impact.
                     </p>
                   </TextAnimation>
 
@@ -367,7 +367,7 @@ export default function Studio() {
 
                   <TextAnimation>
                     <p>
-                      It's a testament to spaces that resonate deeply with both our clients and the architectural community.
+                      It is a testament to spaces that resonate deeply with both our clients and the architectural community.
                     </p>
                   </TextAnimation>
                 </div>

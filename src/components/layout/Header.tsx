@@ -13,7 +13,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isHeaderVisible, setIsHeaderVisible] = useState(true);
   const pathname = usePathname();
-  const router = useRouter();
+ 
   
   const stickyHeaderRef = useRef<HTMLDivElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -76,11 +76,7 @@ export default function Header() {
                             !pathname.startsWith("/gallery") && 
                             !pathname.startsWith("/works/");
 
-  // Check if sticky header should use black text
-  const shouldStickyHeaderUseBlackText = 
-    pathname === "/works" || 
-    pathname === "/studio" || 
-    pathname === "/process";
+  
 
   // Animation for menu
   useEffect(() => {

@@ -24,7 +24,7 @@ const testimonials = [
 
 export default function Review() {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
+  
 
   return (
     <section className="relative z-20 px-4 lg:px-8 py-24 bg-white">
@@ -44,7 +44,7 @@ export default function Review() {
           </motion.div>
         </div>
 
-        {testimonials.map((testimonial, index) => (
+        {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="flex flex-col lg:flex-row gap-12 lg:gap-16">
             {/* Left Side - Content (60% width) */}
             <div className="lg:w-3/5 flex flex-col justify-center">
@@ -70,13 +70,13 @@ export default function Review() {
                 <div className="space-y-6 max-w-2xl"> 
                   <TextAnimation>
                     <p className="text-xl leading-relaxed text-black font-semibold">
-                      "{testimonial.quote}"
+                      {testimonial.quote}
                     </p>
                   </TextAnimation>
                   
                   <TextAnimation delay={0.2}>
                     <p className="text-xl leading-relaxed text-black font-semibold">
-                      "{testimonial.secondQuote}"
+                      {testimonial.secondQuote}
                     </p>
                   </TextAnimation>
                 </div>

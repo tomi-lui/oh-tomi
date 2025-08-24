@@ -119,7 +119,7 @@ export default function ProcessHome({ showButton = true }: ProcessProps) {
               <TextAnimation delay={0.2}>
                 <p className="text-[clamp(38px,5vw,76px)] font-semibold leading-[1] text-black">
                   With our 6-stage process, we prioritise clarity,
-                  collaboration, and your unique vision. At every step, we'll
+                  collaboration, and your unique vision. At every step, we will
                   keep you informed, inspired, and involved.
                 </p>
               </TextAnimation>

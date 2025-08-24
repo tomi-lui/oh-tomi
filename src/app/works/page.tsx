@@ -10,7 +10,7 @@ import TextAnimation from "../../components/layout/TextAnimation";
 export default function Works() {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
-  const [isScrolling, setIsScrolling] = useState(false);
+ 
   const [isMobile, setIsMobile] = useState(false);
   const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
 
@@ -40,15 +40,13 @@ export default function Works() {
         clearTimeout(scrollTimeout.current);
       }
       
-      setIsScrolling(true);
+     
       const scrollWidth = container.scrollWidth - container.clientWidth;
       const scrollPosition = container.scrollLeft;
       const percentage = (scrollPosition / scrollWidth) * 100;
       setScrollProgress(percentage);
       
-      scrollTimeout.current = setTimeout(() => {
-        setIsScrolling(false);
-      }, 100);
+      
     };
 
     container.addEventListener('scroll', handleScroll, { passive: true });

@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from "motion/react";
 import Image from "next/image";
-import { useState } from "react";
+
 
 interface ContactFormProps {
   isOpen: boolean;

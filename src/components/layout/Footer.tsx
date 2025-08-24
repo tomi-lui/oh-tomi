@@ -15,7 +15,7 @@ const navigationLinks = [
 
 export default function Footer() {
   const [currentTime, setCurrentTime] = useState("");
-  const [isOpen, setIsOpen] = useState(false);
+  
 
   useEffect(() => {
     // Update time and status
@@ -34,7 +34,7 @@ export default function Footer() {
       const isBusinessHours = day >= 1 && day <= 5 && hours >= 8 && hours < 17;
       
       setCurrentTime(`${timeString} QLD, we are ${isBusinessHours ? "open" : "closed"}`);
-      setIsOpen(isBusinessHours);
+      
     };
 
     updateTime();
