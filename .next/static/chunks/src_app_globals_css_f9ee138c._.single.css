@@ -576,6 +576,10 @@
     margin-top: calc(var(--spacing) * 72);
   }
 
+  .mt-\[100vh\] {
+    margin-top: 100vh;
+  }
+
   .mr-1 {
     margin-right: calc(var(--spacing) * 1);
   }
