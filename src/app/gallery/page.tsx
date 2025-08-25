@@ -4,7 +4,7 @@ import InfiniteGrid from "../../components/layout/InfiniteGrid";
 
 export default function Gallery() {
   return (
-    <main className="overflow-scroll relative">
+    <main className=" w-screen relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         {/* Content if needed */}
       </div>

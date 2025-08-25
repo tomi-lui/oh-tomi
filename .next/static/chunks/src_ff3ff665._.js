@@ -836,7 +836,7 @@ function Work({ projects }) {
                                 duration: 0.8,
                                 delay: 0.1
                             },
-                            className: "text-[clamp(60px,9vw,150px)] font-medium leading-none",
+                            className: "text-[clamp(60px,9vw,150px)] font-medium leading-none mr-8 md:mr-0",
                             children: "(06)"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Work.tsx",
@@ -2413,7 +2413,7 @@ function ProcessHome({ showButton = true }) {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$TextAnimation$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "text-[clamp(38px,5vw,76px)] font-semibold leading-[1] text-black indent-12",
+                                                className: "text-[clamp(38px,5vw,76px)] font-semibold leading-[1] text-black md:indent-12 indent-0",
                                                 children: "Our approach at OH Architecture is designed to make your journey from concept to completion as smooth and enjoyable as possible."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/Processhome.tsx",

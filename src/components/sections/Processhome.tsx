@@ -108,7 +108,7 @@ export default function ProcessHome({ showButton = true }: ProcessProps) {
             >
               {/* Main Heading with TextAnimation */}
               <TextAnimation>
-                <h2 className="text-[clamp(38px,5vw,76px)] font-semibold leading-[1] text-black indent-12">
+                <h2 className="text-[clamp(38px,5vw,76px)] font-semibold leading-[1] text-black md:indent-12 indent-0">
                   Our approach at OH Architecture is designed to make your
                   journey from concept to completion as smooth and enjoyable as
                   possible.

@@ -106,7 +106,9 @@ export default function InfiniteGrid() {
               src={path || "/placeholder.svg"}
               alt=""
               fill
-              className="w-full h-full object-contain z-0"
+              priority
+
+              className="w-full h-full object-contain z-10 will-change-transform"
             />
           ) : (
             <video
@@ -124,7 +126,7 @@ export default function InfiniteGrid() {
   );
 
   return (
-    <section className="= w-full overflow-hidden pointer-events-none">
+    <section className=" w-full overflow-hidden pointer-events-none">
       <div
         ref={containerRef}
         className="grid grid-cols-[repeat(2,1fr)] w-max will-change-transform"

@@ -588,8 +588,16 @@
     margin-right: calc(var(--spacing) * 2);
   }
 
+  .mr-6 {
+    margin-right: calc(var(--spacing) * 6);
+  }
+
   .mr-8 {
     margin-right: calc(var(--spacing) * 8);
+  }
+
+  .mr-28 {
+    margin-right: calc(var(--spacing) * 28);
   }
 
   .mr-96 {
@@ -642,6 +650,10 @@
 
   .ml-1 {
     margin-left: calc(var(--spacing) * 1);
+  }
+
+  .ml-6 {
+    margin-left: calc(var(--spacing) * 6);
   }
 
   .ml-8 {
@@ -766,6 +778,14 @@
 
   .h-40 {
     height: calc(var(--spacing) * 40);
+  }
+
+  .h-48 {
+    height: calc(var(--spacing) * 48);
+  }
+
+  .h-52 {
+    height: calc(var(--spacing) * 52);
   }
 
   .h-96 {
@@ -1439,6 +1459,10 @@
     text-align: start;
   }
 
+  .indent-0 {
+    text-indent: calc(var(--spacing) * 0);
+  }
+
   .indent-12 {
     text-indent: calc(var(--spacing) * 12);
   }
@@ -1502,6 +1526,14 @@
     font-size: 7rem;
   }
 
+  .text-\[10rem\] {
+    font-size: 10rem;
+  }
+
+  .text-\[12rem\] {
+    font-size: 12rem;
+  }
+
   .text-\[14px\] {
     font-size: 14px;
   }
@@ -1544,6 +1576,22 @@
 
   .text-\[clamp\(48px\,8vw\,160px\)\] {
     font-size: clamp(48px, 8vw, 160px);
+  }
+
+  .text-\[clamp\(50px\,8vw\,150px\)\] {
+    font-size: clamp(50px, 8vw, 150px);
+  }
+
+  .text-\[clamp\(50px\,9vw\,10px\)\] {
+    font-size: clamp(50px, 9vw, 10px);
+  }
+
+  .text-\[clamp\(50px\,9vw\,140px\)\] {
+    font-size: clamp(50px, 9vw, 140px);
+  }
+
+  .text-\[clamp\(50px\,9vw\,150px\)\] {
+    font-size: clamp(50px, 9vw, 150px);
   }
 
   .text-\[clamp\(60px\,9vw\,150px\)\] {
@@ -2077,6 +2125,12 @@
   }
 
   @media (width >= 48rem) {
+    .md\:flex {
+      display: flex;
+    }
+  }
+
+  @media (width >= 48rem) {
     .md\:grid {
       display: grid;
     }
@@ -2364,6 +2418,12 @@
   }
 
   @media (width >= 48rem) {
+    .md\:indent-12 {
+      text-indent: calc(var(--spacing) * 12);
+    }
+  }
+
+  @media (width >= 48rem) {
     .md\:text-2xl {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -2549,6 +2609,12 @@
   }
 
   @media (width >= 64rem) {
+    .lg\:h-60 {
+      height: calc(var(--spacing) * 60);
+    }
+  }
+
+  @media (width >= 64rem) {
     .lg\:h-\[500px\] {
       height: 500px;
     }
@@ -2681,6 +2747,13 @@
   }
 
   @media (width >= 64rem) {
+    .lg\:text-3xl {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+
+  @media (width >= 64rem) {
     .lg\:text-4xl {
       font-size: var(--text-4xl);
       line-height: var(--tw-leading, var(--text-4xl--line-height));
@@ -2691,6 +2764,12 @@
     .lg\:text-7xl {
       font-size: var(--text-7xl);
       line-height: var(--tw-leading, var(--text-7xl--line-height));
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:text-\[14rem\] {
+      font-size: 14rem;
     }
   }
 
@@ -2707,6 +2786,13 @@
   }
 
   @media (width >= 80rem) {
+    .xl\:text-4xl {
+      font-size: var(--text-4xl);
+      line-height: var(--tw-leading, var(--text-4xl--line-height));
+    }
+  }
+
+  @media (width >= 80rem) {
     .xl\:text-5xl {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -2716,6 +2802,7 @@
 
 html, body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 @font-face {

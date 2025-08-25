@@ -102,7 +102,7 @@ export default function Work({ projects }: { projects: Project[] }) {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-[clamp(60px,9vw,150px)] font-medium leading-none"
+            className="text-[clamp(60px,9vw,150px)] font-medium leading-none mr-8 md:mr-0"
           >
             (06)
           </motion.span>

@@ -111,7 +111,7 @@ export default function Footer() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-[270px] lg:text-[400px] font-bold leading-none text-black text-center"
+              className="text-[270px] lg:text-[400px] font-bold leading-none text-black text-center mr-28 md:mr-0"
             >
               OH
             </motion.div>
