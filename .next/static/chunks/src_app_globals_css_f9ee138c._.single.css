@@ -524,6 +524,10 @@
     margin-block: calc(var(--spacing) * 8);
   }
 
+  .-mt-\[100vh\] {
+    margin-top: -100vh;
+  }
+
   .mt-0 {
     margin-top: calc(var(--spacing) * 0);
   }
@@ -574,10 +578,6 @@
 
   .mt-72 {
     margin-top: calc(var(--spacing) * 72);
-  }
-
-  .mt-\[100vh\] {
-    margin-top: 100vh;
   }
 
   .mr-1 {
@@ -1401,6 +1401,10 @@
 
   .pt-28 {
     padding-top: calc(var(--spacing) * 28);
+  }
+
+  .pt-\[100vh\] {
+    padding-top: 100vh;
   }
 
   .pr-8 {
@@ -2469,18 +2473,6 @@
   @media (width >= 48rem) {
     .md\:opacity-100 {
       opacity: 1;
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:fixed {
-      position: fixed;
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:inset-0 {
-      inset: calc(var(--spacing) * 0);
     }
   }
 
