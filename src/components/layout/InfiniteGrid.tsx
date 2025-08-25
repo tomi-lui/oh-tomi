@@ -124,7 +124,7 @@ export default function InfiniteGrid() {
   );
 
   return (
-    <section className="h-screen w-full overflow-hidden pointer-events-none">
+    <section className="= w-full overflow-hidden pointer-events-none">
       <div
         ref={containerRef}
         className="grid grid-cols-[repeat(2,1fr)] w-max will-change-transform"
