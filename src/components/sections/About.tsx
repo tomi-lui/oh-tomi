@@ -43,7 +43,7 @@ export default function About() {
   return (
     <section 
       ref={aboutRef}
-      className="relative z-20 bg-neutral-50 px-4 lg:px-8 py-9 "
+      className="relative z-20 bg-neutral-50 px-4 lg:px-8 py-9 mt-[100vh]"
     >
       {/* Large Title - Top Left */}
       <motion.div
