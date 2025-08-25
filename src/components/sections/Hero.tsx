@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { motion } from "motion/react";
+
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -12,22 +13,9 @@ if (typeof window !== "undefined") {
 
 export default function Hero() {
   const [isHovered, setIsHovered] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
   const heroRef = useRef<HTMLElement>(null);
   const bg1Ref = useRef<HTMLDivElement>(null);
   const bg2Ref = useRef<HTMLDivElement>(null);
-
-  // Check if mobile on mount and resize
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 1024);
-    };
-    
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
 
   // Initialize GSAP effects
   useEffect(() => {
@@ -54,7 +42,7 @@ export default function Hero() {
   return (
     <section 
       ref={heroRef}
-      className={`${isMobile ? 'relative' : 'relative'} inset-0  overflow-hidden z-10`}
+      className="inset-0 sticky  overflow-hidden z-10"
     >
       {/* Background Images */}
       <div className="absolute inset-0">

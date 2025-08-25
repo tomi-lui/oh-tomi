@@ -1119,6 +1119,10 @@
     overflow: hidden;
   }
 
+  .overflow-scroll {
+    overflow: scroll;
+  }
+
   .overflow-x-auto {
     overflow-x: auto;
   }
