@@ -524,10 +524,6 @@
     margin-block: calc(var(--spacing) * 8);
   }
 
-  .-mt-\[100vh\] {
-    margin-top: -100vh;
-  }
-
   .mt-0 {
     margin-top: calc(var(--spacing) * 0);
   }
@@ -578,10 +574,6 @@
 
   .mt-72 {
     margin-top: calc(var(--spacing) * 72);
-  }
-
-  .mt-\[100vh\] {
-    margin-top: 100vh;
   }
 
   .mr-1 {
@@ -2378,12 +2370,6 @@
   @media (width >= 48rem) {
     .md\:pl-8 {
       padding-left: calc(var(--spacing) * 8);
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:text-left {
-      text-align: left;
     }
   }
 

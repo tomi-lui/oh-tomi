@@ -43,7 +43,7 @@ export default function Hero() {
       {/* Hero Section */}
       <section 
         ref={heroRef}
-        className="lg:fixed lg:inset-0 relative h-screen overflow-hidden z-10"
+        className="lg:inset-0 relative h-screen overflow-hidden z-40"
       >
         {/* Background Images */}
         <div className="absolute inset-0">
