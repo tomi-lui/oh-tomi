@@ -524,6 +524,10 @@
     margin-block: calc(var(--spacing) * 8);
   }
 
+  .-mt-\[100vh\] {
+    margin-top: -100vh;
+  }
+
   .mt-0 {
     margin-top: calc(var(--spacing) * 0);
   }
@@ -1137,10 +1141,6 @@
 
   .overflow-y-visible {
     overflow-y: visible;
-  }
-
-  .overscroll-none {
-    overscroll-behavior: none;
   }
 
   .rounded {
@@ -2382,6 +2382,12 @@
   }
 
   @media (width >= 48rem) {
+    .md\:text-left {
+      text-align: left;
+    }
+  }
+
+  @media (width >= 48rem) {
     .md\:text-right {
       text-align: right;
     }
@@ -2473,6 +2479,18 @@
   @media (width >= 48rem) {
     .md\:opacity-100 {
       opacity: 1;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:fixed {
+      position: fixed;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:inset-0 {
+      inset: calc(var(--spacing) * 0);
     }
   }
 
