@@ -26,7 +26,7 @@ export default function RootLayout({
           <InitialLoadProvider>
             <FooterProvider>
               <body
-                className={`${saans.className} antialiased text-neutral-900 `}
+                className={`${saans.className} antialiased bg-neutral-900 text-neutral-900 `}
               >
                 <LoadingScreen />
                 <LayoutClient>{children}</LayoutClient>

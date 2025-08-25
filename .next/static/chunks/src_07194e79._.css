@@ -1249,6 +1249,10 @@
     background-color: var(--color-neutral-50);
   }
 
+  .bg-neutral-900 {
+    background-color: var(--color-neutral-900);
+  }
+
   .bg-white {
     background-color: var(--color-white);
   }
@@ -2712,7 +2716,6 @@
 
 html, body {
   width: 100%;
-  overflow-x: hidden;
 }
 
 @font-face {
