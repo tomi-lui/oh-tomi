@@ -86,7 +86,7 @@ export default function Works() {
   }, [isMobile]);
 
   return (
-    <div className={`${isMobile ? 'h-auto overflow-y-auto' : 'h-screen overflow-hidden'} w-screen bg-white`}>
+   <div className={`${isMobile ? 'h-auto' : 'h-screen overflow-hidden'} w-screen bg-white`}>
       {/* Mobile Header */}
       {isMobile && (
         <div className="px-6 pt-28 pb-4">

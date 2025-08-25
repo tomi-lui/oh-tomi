@@ -10,6 +10,11 @@
   }
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 @font-face {
   font-family: "Respira-Black";
   src: url("/fonts/Respira-Black.otf") format("opentype");
