@@ -98,10 +98,10 @@ className="h-full bg-white"
                 className="flex flex-col"
               >
                 <span className="text-white text-[10rem] font-extrabold leading-none">
-                  O
+                  N
                 </span>
                 <span className="text-white text-[10rem] font-extrabold leading-none mt-3">
-                  O
+                  N
                 </span>
               </motion.div>
             </div>
@@ -149,10 +149,10 @@ className="h-full bg-white"
                 className="flex flex-col"
               >
                 <span className="text-white text-[12rem] lg:text-[14rem] font-extrabold leading-none">
-                  O
+                  N
                 </span>
                 <span className="text-white text-[12rem] lg:text-[14rem] font-extrabold leading-none mt-3">
-                  O
+                  N
                 </span>
               </motion.div>
             </div>

@@ -139,7 +139,7 @@ export default function Hero() {
           className="absolute bottom-8 left-8 text-white z-20"
         >
           <p className="text-4xl font-medium">
-            The OH Architecture style is defined by<br />
+            The NH Architecture style is defined by<br />
             strong, solid forms with subtle elegance,<br />
             natural balance and enduring appeal
           </p>
@@ -195,7 +195,7 @@ export default function Hero() {
             className="mb-6"
           >
             <p className="text-xl md:text-2xl font-medium leading-tight">
-              The OH Architecture style is defined by<br />
+              The NH Architecture style is defined by<br />
               strong, solid forms with subtle elegance,<br />
               natural balance and enduring appeal
             </p>

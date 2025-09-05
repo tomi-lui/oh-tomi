@@ -101,7 +101,7 @@ export default function Header() {
         >
           <div className="px-4 lg:px-8 py-4 lg:py-6 flex justify-between items-center">
             <Link href="/" className={`font-bold text-3xl md:text-6xl ${shouldUseBlackText ? 'text-black' : 'text-white'}`}>
-              OH Architecture
+              NH Architecture
             </Link>
 
             {/* Desktop Navigation */}
@@ -194,7 +194,7 @@ export default function Header() {
       >
         <div className="flex flex-col h-full">
           <div className="flex justify-between">
-            <div className="font-bold text-4xl text-white">OH Architecture</div>
+            <div className="font-bold text-4xl text-white">NH Architecture</div>
             <button onClick={toggleMenu} className="text-white uppercase text-2xl group overflow-hidden h-8">
               <div className="flex flex-col transition-transform duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:-translate-y-1/2">
                 <span className="mb-1.5">Close</span>

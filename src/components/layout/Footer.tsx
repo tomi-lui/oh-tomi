@@ -113,7 +113,7 @@ export default function Footer() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-[270px] lg:text-[400px] font-bold leading-none text-black text-center mr-28 md:mr-0"
             >
-              OH
+              NH
             </motion.div>
           </div>
 
@@ -197,11 +197,11 @@ export default function Footer() {
                 </div>
                 
                 <div>
-                  <p className="font-semibold">E: info@oharchitecture.com.au</p>
+                  <p className="font-semibold">E: info@Nharchitecture.com.au</p>
                 </div>
                 
                 <div>
-                  <p className="font-semibold">P: 07 3110 1031</p>
+                  <p className="font-semibold">P: 07 311230 1031</p>
                 </div>
                 
                 <div>
@@ -241,7 +241,7 @@ export default function Footer() {
     <div>Privacy Policy</div>
     <div>
       <Link 
-        href="https://instagram.com/oharchitecture"
+        href="https://instagram.com/Nharchitecture"
         className="hover:text-gray-600 transition-colors"
       >
         Instagram
@@ -268,8 +268,8 @@ export default function Footer() {
       </Link>
     </div>
     <div>
-      Made by <span className="font-bold">Sagar</span> &{" "}
-      <span className="font-bold">Tomi</span>
+      Made by <span className="font-bold">Sagar</span> 
+    
     </div>
   </div>
 </div>
@@ -279,7 +279,7 @@ export default function Footer() {
           <div className="hidden lg:grid grid-cols-4 gap-6">
             {/* Row 1: Copyright */}
             <div className="text-xl font-semibold text-black">
-              <p>© 2025 OH Architecture</p>
+              <p>© 2025 NH Architecture</p>
             </div>
             
             {/* Row 2: Time Status */}
@@ -315,8 +315,8 @@ export default function Footer() {
               <span>|</span>
               <p>
                 Made by{" "}
-                <span className="font-bold">Sagar</span> &{" "}
-                <span className="font-bold">Tomi</span>
+                <span className="font-bold">Sagar</span> 
+
               </p>
             </div>
           </div>

@@ -117,7 +117,7 @@ export default function Studio() {
           transition={{ duration: 1, delay: 0.8 }}
         >
           <h1 className="text-[65vw] font-black leading-none mt-7 text-black">
-            OH
+            NH
           </h1>
         </motion.div>
       </section>
@@ -153,7 +153,7 @@ export default function Studio() {
           <div className="text-center">
             <TextAnimation>
               <h2 className="text-2xl md:text-6xl font-bold text-black leading-tight ">
-                At OH, we take a collaborative
+                At NH, we take a collaborative
                 approach. Whether we are working
                 in the studio or alongside our
                 clients and partners, it is this
@@ -361,7 +361,7 @@ export default function Studio() {
 
                   <TextAnimation>
                     <p>
-                      When our projects earn accolades or are featured in leading publications, it reflects the dedication, creativity, and collaboration that define OH Architecture.
+                      When our projects earn accolades or are featured in leading publications, it reflects the dedication, creativity, and collaboration that define NH Architecture.
                     </p>
                   </TextAnimation>
 

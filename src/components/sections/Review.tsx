@@ -9,8 +9,8 @@ import TextAnimation from "../layout/TextAnimation";
 const testimonials = [
   {
     id: 1,
-    quote: "From the initial meeting I was impressed by the genuine enthusiasm and willingness to engage with the ideas in my brief. Johnny Hyde and the OH Architecture team engendered confidence. They cared about the project; throughout the design process they listened and interacted in a positive and professional, but relaxed, way.",
-    secondQuote: "As they explored design ideas, they welcomed my contributions and encouraged feedback. Consequently, I had no doubt that OH Architecture would deliver a design to meet my dreams and also my budget. And in fact, the award-winning outcome eminently attests to their skill and achievement on both counts!",
+    quote: "From the initial meeting I was impressed by the genuine enthusiasm and willingness to engage with the ideas in my brief. Johnny Hyde and the NH Architecture team engendered confidence. They cared about the project; throughout the design process they listened and interacted in a positive and professional, but relaxed, way.",
+    secondQuote: "As they explored design ideas, they welcomed my contributions and encouraged feedback. Consequently, I had no doubt that NH Architecture would deliver a design to meet my dreams and also my budget. And in fact, the award-winning outcome eminently attests to their skill and achievement on both counts!",
     clientName: "CARMEN",
     clientTitle: "HOMEOWNER OF SIDNEY",
     projectTitle: "SIDNEY HOUSE",

@@ -10,8 +10,8 @@ import type { Metadata } from "next";
 import LayoutClient from "./layout-client"; // 👈 new client wrapper
 
 export const metadata: Metadata = {
-  title: "OH BRO",
-  description: "broo website showcasing my work",
+  title: "NH ARCHITECTURE",
+  description: " showcasing my work",
 };
 
 export default function RootLayout({

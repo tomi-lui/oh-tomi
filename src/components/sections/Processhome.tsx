@@ -64,7 +64,7 @@ export default function ProcessHome({ showButton = true }: ProcessProps) {
                 <motion.div style={{ scale }} className="w-full h-full">
                   <Image
                     src="/img/pro.avif"
-                    alt="OH Architecture building exterior"
+                    alt="NH Architecture building exterior"
                     fill
                     className="object-cover"
                     priority
@@ -109,7 +109,7 @@ export default function ProcessHome({ showButton = true }: ProcessProps) {
               {/* Main Heading with TextAnimation */}
               <TextAnimation>
                 <h2 className="text-[clamp(38px,5vw,76px)] font-semibold leading-[1] text-black md:indent-12 indent-0">
-                  Our approach at OH Architecture is designed to make your
+                  Our approach at NH Architecture is designed to make your
                   journey from concept to completion as smooth and enjoyable as
                   possible.
                 </h2>
